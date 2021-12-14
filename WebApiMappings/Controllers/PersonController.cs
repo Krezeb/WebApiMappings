@@ -11,10 +11,6 @@ namespace WebApiMappings.Controllers
     {
         private static List<Person> _persons = new List<Person>(); 
 
-
-
-
-
         [HttpGet("{personId}")]
         public Person GetPerson(int personId)
         {
